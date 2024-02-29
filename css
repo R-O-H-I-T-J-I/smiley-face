@@ -1,0 +1,53 @@
+#outer{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 100px auto;
+    transform: scale(2);
+}
+body{
+    background-color: lightslategray;
+}
+#inner{
+    height: 95%;
+    width: 95%;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    margin:3px 0 0 2px;
+    /* top:25px;
+    left:25px; */
+}
+.black{
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top:20px;
+
+}
+#eyeOne{
+    left: 22px;
+}
+#eyeTwo{
+ right:22px;   
+}
+.orange{
+    height: 15px;
+    width: 35px;
+    position:absolute;
+    background-color: rgb(184, 64, 20);
+    border-radius: 0 0 10px 10px;
+    bottom: 20px;
+    left:32%;
+}
+#outer:hover{
+ #inner{
+    background-color: blue;
+ }   
+ .orange{
+    border-radius: 10px 10px 0 0 ;
+ }
+}
